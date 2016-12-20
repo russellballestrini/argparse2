@@ -37,3 +37,16 @@ A flag and an environment var:
 
  MYAPP_ADDRESS=0.0.0.0 ./myapp --port 6060
  listening to 0.0.0.0:6060
+
+We also add the environment vars to the help texts:
+
+.. code-block:: bash
+
+ ./myapp --help
+ usage: myapp [-h] [-a ADDRESS] [-p PORT]
+
+ optional arguments:
+   -h, --help            show this help message and exit, MYAPP_HELP=help
+   -a ADDRESS, --address ADDRESS
+                         address to bind, MYAPP_ADDRESS=address
+   -p PORT, --port PORT  port to listen, MYAPP_PORT=port
