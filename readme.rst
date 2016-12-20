@@ -1,7 +1,7 @@
 argparse2
 ###########
 
-Works just like `argparse <https://github.com/ThomasWaldmann/argparse/>` but also automatically supports environment vars.
+Works just like `argparse <https://github.com/ThomasWaldmann/argparse/>`_ but also automatically supports environment vars.
 
 for example:
 
