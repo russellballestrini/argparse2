@@ -17,15 +17,21 @@ for example, myapp:
      args = parser.parse_args()
      print('listening to {}:{}'.format(args.address, args.port))
 
+No arguments, flags, or environment vars:
+
 .. code-block:: bash
 
  ./myapp.py
  listening to 127.0.0.1:8080
 
+A flag:
+
 .. code-block:: bash
 
  ./myapp --port 6060
  listening to 127.0.0.1:6060
+
+A flag and an environment var:
 
 .. code-block:: bash
 
