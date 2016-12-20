@@ -3,7 +3,7 @@ argparse2
 
 Works just like `argparse <https://github.com/ThomasWaldmann/argparse/>`_ but also automatically supports environment vars.
 
-for example, myapp:
+For example, myapp:
 
 .. code-block:: python
 
