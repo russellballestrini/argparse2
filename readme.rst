@@ -40,6 +40,8 @@ A flag and an environment var:
 
 A flag overiding an environment var:
 
+.. code-block:: bash
+
  MYAPP_ADDRESS=0.0.0.0 ./myapp --address 192.168.1.21
  listening to 192.168.1.21:8080
 
