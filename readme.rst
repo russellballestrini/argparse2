@@ -38,7 +38,7 @@ A flag and an environment var:
  MYAPP_ADDRESS=0.0.0.0 ./myapp --port 6060
  listening to 0.0.0.0:6060
 
-A flag overiding an environment var:
+A flag overriding an environment var:
 
 .. code-block:: bash
 
