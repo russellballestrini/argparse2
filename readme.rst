@@ -3,7 +3,7 @@ argparse2
 
 Works just like `argparse <https://github.com/ThomasWaldmann/argparse/>`_ but also automatically supports environment vars.
 
-For example, myapp:
+For example, `myapp`:
 
 .. code-block:: python
 
@@ -37,6 +37,11 @@ A flag and an environment var:
 
  MYAPP_ADDRESS=0.0.0.0 ./myapp --port 6060
  listening to 0.0.0.0:6060
+
+A flag overiding an environment var:
+
+ MYAPP_ADDRESS=0.0.0.0 ./myapp --address 192.168.1.21
+ listening to 192.168.1.21:8080
 
 We also add the environment vars to the help texts:
 
